@@ -11,6 +11,7 @@ import Home from "@material-ui/icons/Home";
 import PersonIcon from '@mui/icons-material/Person';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import BadgeIcon from '@mui/icons-material/Badge';
+import PageviewIcon from '@material-ui/icons/Pageview';
 import { withRouter } from "react-router-dom";
 
 const useStyles = makeStyles({
@@ -42,6 +43,11 @@ const Drawer = (props) => {
       text: "Empleados",
       icon: <BadgeIcon />,
       onClick: () => history.push("/employees")
+    },
+    {
+      text: "3. Consumo goRest",
+      icon: <PageviewIcon />,
+      onClick: () => history.push("/users")
     }
   ];
   return (

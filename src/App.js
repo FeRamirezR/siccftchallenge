@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Procedures from "./Pages/Procedures";
 import Persons from "./Pages/Persons";
 import Employees from "./Pages/Employees";
+import Users from "./Pages/Users";
 import { Route, Switch } from "react-router-dom";
 import Drawer from "./components/Drawer";
 import { makeStyles } from "@material-ui/core/styles";
@@ -24,6 +25,7 @@ export default function App() {
         <Route exact path="/procedures" render={props => <Procedures {...props} />} />
         <Route exact path="/persons" render={props => <Persons {...props} />} />
         <Route exact path="/employees" render={props => <Employees {...props} />} />
+        <Route exact path="/users" render={props => <Users {...props} />} />
       </Switch>
     </div>
   );

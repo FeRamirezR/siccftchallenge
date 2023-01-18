@@ -30,3 +30,7 @@ Tramites:
 
 Empleados:
 ![image](https://user-images.githubusercontent.com/68881279/213285842-86da1c0a-911a-4e74-85ae-b322546e9062.png)
+
+Punto 3- consumo Enponit:https://gorest.co.in/public/v1/users
+![image](https://user-images.githubusercontent.com/68881279/213293684-51642279-ec06-4b5f-8aa8-cf65e8144c1e.png)
+
